@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Q3 | Exercise 2</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <style type="text/css">
+    img{
+      width: 25%;
+      height: 25%;
+    }
+    h2{
+      font-family: serif;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Football Athletes</h2>
+    <p>List</p>
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th scope="col" class="bg-primary">Rank</th>
+            <th scope="col" class="bg-info">Athlete</th>
+            <th scope="col" class="bg-success">Source of Wealth</th>
+            <th scope="col" class="bg-warning">Networth</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td><img src="ronaldo.gif" class="rounded">&nbsp;&nbsp;&nbsp; Ronaldo</td>
+            <td>Professional Portuguese Footballer, Endorser, Commercial Actor.</td>
+            <td>$1 Billion</td>
+          </tr>
+                    <tr>
+            <th scope="row">2</th>
+            <td><img src="messi.gif" class="rounded">&nbsp;&nbsp;&nbsp; Messi</td>
+            <td>Professional Argentina Footballer, Endorser.</td>
+            <td>$600 Million</td>
+          </tr>
+           <tr>
+            <th scope="row">3</th>
+            <td><img src="neymar.gif" class="rounded">&nbsp;&nbsp;&nbsp; Neymar</td>
+            <td>Professional Brazillian Footballer, Commerical Endorser.</td>
+            <td>$200 Million </td>
+          </tr>
+           <tr>
+            <th scope="row">4</th>
+            <td><img src="mbappe.gif" class="rounded">&nbsp;&nbsp;&nbsp; Mbappe</td>
+            <td>Professional French Footballer</td>
+            <td>$150 Million</td>
+          </tr>
+            <tr>
+            <th scope="row">5</th>
+            <td><img src="luka.gif" class="rounded">&nbsp;&nbsp;&nbsp; Luka</td>
+            <td>Professional Croatian Footballer</td>
+            <td>$75 Million</td>
+          </tr>
+        </tbody>
+      </table>
+    <div class="container">
+      <h2>Sign In to view more Football players.</h2>
+      <form class="form-horizontal" action="/action_page.php">
+        <div class="form-group">
+          <label class="control-label col-sm-2" for="email">Input Email:</label>
+          <div class="col-sm-10"> 
+            <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="control-label col-sm-2" for="pwd">Password:</label>
+        <div class="col-sm-10">
+          <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd">
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="col-sm-offset-2 col-sm-10">
+          <div class="checkbox">
+            <label><input type="checkbox" name="remember">Remember me</label>
+          </div>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="col-sm-offset-2 col-sm-10">
+          <button type="submit" class="btn btn-success">Sign In</button>
+           <button type="submit" class="btn btn-danger">Cancel</button>
+      </div>
+    </div>
+  </form>
+</div>
+
+</body>
+</html>
